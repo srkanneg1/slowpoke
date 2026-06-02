@@ -4,9 +4,14 @@ Title: Toy package for practice activity.
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Kelly", "Bodwin",
-      email = "kbodwin@calpoly.edu",
+      "Sriyans", "Kanneganti",
+      email = "srkanneg@calpoly.edu",
       role = c("aut", "cre")
+    ),
+    person(
+    "Spencer", "Chinn",
+    email = "",
+    role = c("aut")
     )
   )
 Description: A few summaries of pokemon cards.
@@ -15,9 +20,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     arrow,
-    data.table,
     dplyr,
-    readr,
-    stringr,
+    stringi,
     tidyr
-RoxygenNote: 7.3.3
+Config/roxygen2/version: 8.0.0
